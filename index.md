@@ -3,82 +3,92 @@ layout: default
 title: Blog de Analítica Avanzada
 ---
 
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 3rem 2rem; border-radius: 15px; color: white; margin-bottom: 3rem; box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);">
-  <h1 style="margin: 0; font-size: 2.5rem;">Hey, bienvenido 👋</h1>
-  <p style="font-size: 1.2rem; margin-top: 1rem; opacity: 0.95;">
-    Este es mi rincón digital donde transformo datos caóticos en insights (casi siempre). 
-    Aquí documento mis experimentos con <strong>Spark</strong>, mis batallas contra datasets enormes, 
-    y esos momentos mágicos cuando el código finalmente corre sin errores.
+<div style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); padding: 3.5rem 2.5rem; border-radius: 20px; color: white; margin-bottom: 3rem; box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4); border: 1px solid #0f3460;">
+  <h1 style="margin: 0; font-size: 3rem; font-weight: 800; letter-spacing: -1px;">Data Engineering Lab 🔧</h1>
+  <p style="font-size: 1.3rem; margin-top: 1.5rem; opacity: 0.95; font-weight: 500; line-height: 1.6;">
+    Análisis de datos a escala industrial. Aquí construyo pipelines robustos con <strong>Spark</strong>,
+    proceso terabytes de información, y documento soluciones reales para problemas complejos.
+    Sin florituras, solo código que funciona.
   </p>
+  <div style="margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.1); display: flex; gap: 1.5rem; flex-wrap: wrap; align-items: center;">
+    <span style="background: rgba(255,255,255,0.1); padding: 0.5rem 1.2rem; border-radius: 8px; font-size: 0.95rem; font-weight: 600;">⚡ Apache Spark</span>
+    <span style="background: rgba(255,255,255,0.1); padding: 0.5rem 1.2rem; border-radius: 8px; font-size: 0.95rem; font-weight: 600;">🐍 Python/PySpark</span>
+    <span style="background: rgba(255,255,255,0.1); padding: 0.5rem 1.2rem; border-radius: 8px; font-size: 0.95rem; font-weight: 600;">📊 Big Data Analytics</span>
+  </div>
 </div>
 
-## 🛠️ Mi stack de batalla
+## 🛠️ Stack Tecnológico
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.2rem; margin: 2.5rem 0;">
-  <div style="background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%); padding: 1.8rem; border-radius: 12px; border: 2px solid #667eea30; transition: transform 0.3s;">
-    <div style="font-size: 2rem; margin-bottom: 0.5rem;">⚡</div>
-    <strong style="color: #667eea; font-size: 1.1rem;">Apache Spark</strong><br>
-    <span style="color: #666; font-size: 0.9rem;">Cuando tu laptop dice "no puedo más"</span>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.5rem; margin: 3rem 0;">
+  <div style="background: linear-gradient(135deg, #0f3460 0%, #16213e 100%); padding: 2rem; border-radius: 16px; border: 2px solid #1a1a2e; box-shadow: 0 8px 24px rgba(0,0,0,0.2);">
+    <div style="font-size: 2.5rem; margin-bottom: 0.8rem;">⚡</div>
+    <strong style="color: #00d4ff; font-size: 1.2rem; display: block; margin-bottom: 0.5rem;">Apache Spark</strong>
+    <span style="color: #94a3b8; font-size: 0.95rem;">Procesamiento distribuido a escala</span>
   </div>
   
-  <div style="background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%); padding: 1.8rem; border-radius: 12px; border: 2px solid #764ba230; transition: transform 0.3s;">
-    <div style="font-size: 2rem; margin-bottom: 0.5rem;">🐍</div>
-    <strong style="color: #764ba2; font-size: 1.1rem;">Python & PySpark</strong><br>
-    <span style="color: #666; font-size: 0.9rem;">Mi lenguaje de confort (y desesperación)</span>
+  <div style="background: linear-gradient(135deg, #0f3460 0%, #16213e 100%); padding: 2rem; border-radius: 16px; border: 2px solid #1a1a2e; box-shadow: 0 8px 24px rgba(0,0,0,0.2);">
+    <div style="font-size: 2.5rem; margin-bottom: 0.8rem;">🐍</div>
+    <strong style="color: #00d4ff; font-size: 1.2rem; display: block; margin-bottom: 0.5rem;">Python & PySpark</strong>
+    <span style="color: #94a3b8; font-size: 0.95rem;">Ingeniería de datos eficiente</span>
   </div>
   
-  <div style="background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%); padding: 1.8rem; border-radius: 12px; border: 2px solid #667eea30; transition: transform 0.3s;">
-    <div style="font-size: 2rem; margin-bottom: 0.5rem;">🌊</div>
-    <strong style="color: #667eea; font-size: 1.1rem;">Data Streaming</strong><br>
-    <span style="color: #666; font-size: 0.9rem;">Datos que nunca duermen</span>
+  <div style="background: linear-gradient(135deg, #0f3460 0%, #16213e 100%); padding: 2rem; border-radius: 16px; border: 2px solid #1a1a2e; box-shadow: 0 8px 24px rgba(0,0,0,0.2);">
+    <div style="font-size: 2.5rem; margin-bottom: 0.8rem;">🌊</div>
+    <strong style="color: #00d4ff; font-size: 1.2rem; display: block; margin-bottom: 0.5rem;">Streaming Real-Time</strong>
+    <span style="color: #94a3b8; font-size: 0.95rem;">Datos en movimiento 24/7</span>
   </div>
   
-  <div style="background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%); padding: 1.8rem; border-radius: 12px; border: 2px solid #764ba230; transition: transform 0.3s;">
-    <div style="font-size: 2rem; margin-bottom: 0.5rem;">📊</div>
-    <strong style="color: #764ba2; font-size: 1.1rem;">Visualización</strong><br>
-    <span style="color: #666; font-size: 0.9rem;">Porque los ejecutivos no leen tablas</span>
+  <div style="background: linear-gradient(135deg, #0f3460 0%, #16213e 100%); padding: 2rem; border-radius: 16px; border: 2px solid #1a1a2e; box-shadow: 0 8px 24px rgba(0,0,0,0.2);">
+    <div style="font-size: 2.5rem; margin-bottom: 0.8rem;">📊</div>
+    <strong style="color: #00d4ff; font-size: 1.2rem; display: block; margin-bottom: 0.5rem;">Data Visualization</strong>
+    <span style="color: #94a3b8; font-size: 0.95rem;">Insights accionables</span>
   </div>
 </div>
 
 ---
 
-## 📖 Lo último del blog
+## 📖 Artículos Técnicos
 
 {% for post in site.posts %}
-<article style="background: white; border-radius: 12px; padding: 2rem; margin-bottom: 2rem; box-shadow: 0 4px 20px rgba(0,0,0,0.08); border-left: 5px solid #667eea; transition: transform 0.3s, box-shadow 0.3s;">
+<article style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); border-radius: 16px; padding: 2.5rem; margin-bottom: 2.5rem; box-shadow: 0 10px 40px rgba(0,0,0,0.3); border-left: 4px solid #00d4ff; transition: transform 0.3s, box-shadow 0.3s;">
   
-  <h3 style="margin-top: 0; font-size: 1.6rem;">
-    <a href="{{ post.url | relative_url }}" style="color: #2d3748; text-decoration: none; background: linear-gradient(to right, #667eea, #764ba2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
+  <h3 style="margin-top: 0; font-size: 1.8rem; font-weight: 700;">
+    <a href="{{ post.url | relative_url }}" style="color: #00d4ff; text-decoration: none; transition: color 0.3s;">
       {{ post.title }}
     </a>
   </h3>
   
-  <div style="color: #718096; font-size: 0.9rem; margin-bottom: 1.2rem; display: flex; align-items: center; gap: 1rem; flex-wrap: wrap;">
-    <span>📅 {{ post.date | date: "%d de %B, %Y" }}</span>
+  <div style="color: #94a3b8; font-size: 0.9rem; margin-bottom: 1.5rem; display: flex; align-items: center; gap: 1.5rem; flex-wrap: wrap;">
+    <span style="display: flex; align-items: center; gap: 0.4rem;">
+      <span style="color: #00d4ff;">📅</span> {{ post.date | date: "%d %b %Y" }}
+    </span>
     {% if post.author %}
-    <span>✍️ {{ post.author }}</span>
+    <span style="display: flex; align-items: center; gap: 0.4rem;">
+      <span style="color: #00d4ff;">✍️</span> {{ post.author }}
+    </span>
     {% endif %}
-    <span style="color: #cbd5e0;">•</span>
-    <span>⏱️ 5 min de lectura</span>
+    <span style="display: flex; align-items: center; gap: 0.4rem;">
+      <span style="color: #00d4ff;">⏱️</span> 8 min
+    </span>
   </div>
   
-  <p style="color: #4a5568; line-height: 1.7; margin-bottom: 1.5rem;">
-    {{ post.excerpt | strip_html | truncatewords: 45 }}
+  <p style="color: #cbd5e1; line-height: 1.8; margin-bottom: 1.8rem; font-size: 1.05rem;">
+    {{ post.excerpt | strip_html | truncatewords: 40 }}
   </p>
   
   {% if post.categories %}
-  <div style="margin-bottom: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.5rem;">
+  <div style="margin-bottom: 1.8rem; display: flex; flex-wrap: wrap; gap: 0.6rem;">
     {% for category in post.categories %}
-    <span style="background: linear-gradient(135deg, #e7f3ff 0%, #f0e7ff 100%); color: #667eea; padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.85rem; font-weight: 500; border: 1px solid #667eea20;">
-      #{{ category }}
+    <span style="background: rgba(0, 212, 255, 0.1); color: #00d4ff; padding: 0.4rem 1rem; border-radius: 6px; font-size: 0.85rem; font-weight: 600; border: 1px solid rgba(0, 212, 255, 0.3); text-transform: uppercase; letter-spacing: 0.5px;">
+      {{ category }}
     </span>
     {% endfor %}
   </div>
   {% endif %}
   
-  <a href="{{ post.url | relative_url }}" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.7rem 1.8rem; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; text-decoration: none; border-radius: 25px; font-weight: 500; transition: transform 0.3s, box-shadow 0.3s; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);">
-    Leer completo
-    <span style="transition: transform 0.3s;">→</span>
+  <a href="{{ post.url | relative_url }}" style="display: inline-flex; align-items: center; gap: 0.6rem; padding: 0.9rem 2rem; background: linear-gradient(135deg, #00d4ff 0%, #0099cc 100%); color: #0a0e27; text-decoration: none; border-radius: 8px; font-weight: 700; transition: all 0.3s; box-shadow: 0 4px 20px rgba(0, 212, 255, 0.3); text-transform: uppercase; letter-spacing: 0.5px; font-size: 0.9rem;">
+    Leer Análisis Completo
+    <span style="transition: transform 0.3s; font-size: 1.2rem;">→</span>
   </a>
   
 </article>
@@ -86,43 +96,43 @@ title: Blog de Analítica Avanzada
 
 ---
 
-## 🎯 ¿Qué encontrarás en este blog?
+## 🎯 Contenido del Blog
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin: 3rem 0;">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin: 3rem 0;">
   
-  <div style="background: linear-gradient(135deg, #e7f3ff 0%, #f0e7ff 100%); padding: 2rem; border-radius: 15px; border: 2px solid #667eea20;">
-    <div style="font-size: 2.5rem; margin-bottom: 1rem;">🔍</div>
-    <h4 style="color: #2d3748; margin: 0 0 1rem 0; font-size: 1.2rem;">Análisis del mundo real</h4>
-    <p style="color: #4a5568; margin: 0; line-height: 1.6;">
-      Nada de datasets de juguete. Aquí trabajamos con datos que encuentras en empresas reales, 
-      con todos sus problemas y peculiaridades incluidos.
+  <div style="background: linear-gradient(135deg, #0f3460 0%, #16213e 100%); padding: 2.5rem; border-radius: 16px; border: 2px solid #1a1a2e; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+    <div style="font-size: 3rem; margin-bottom: 1.2rem;">🔬</div>
+    <h4 style="color: #00d4ff; margin: 0 0 1rem 0; font-size: 1.3rem; font-weight: 700;">Casos de Uso Reales</h4>
+    <p style="color: #cbd5e1; margin: 0; line-height: 1.7; font-size: 1.05rem;">
+      Implementaciones production-ready con datasets empresariales. Arquitecturas escalables 
+      y patrones de diseño probados en entornos de alta demanda.
     </p>
   </div>
   
-  <div style="background: linear-gradient(135deg, #fff9e6 0%, #ffe6f0 100%); padding: 2rem; border-radius: 15px; border: 2px solid #ffc10720;">
-    <div style="font-size: 2.5rem; margin-bottom: 1rem;">💻</div>
-    <h4 style="color: #2d3748; margin: 0 0 1rem 0; font-size: 1.2rem;">Código que funciona</h4>
-    <p style="color: #4a5568; margin: 0; line-height: 1.6;">
-      Implementaciones completas que puedes copiar, ajustar y usar. Con explicaciones de por qué 
-      las cosas funcionan (o no) de cierta manera.
+  <div style="background: linear-gradient(135deg, #0f3460 0%, #16213e 100%); padding: 2.5rem; border-radius: 16px; border: 2px solid #1a1a2e; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+    <div style="font-size: 3rem; margin-bottom: 1.2rem;">⚙️</div>
+    <h4 style="color: #00d4ff; margin: 0 0 1rem 0; font-size: 1.3rem; font-weight: 700;">Código Optimizado</h4>
+    <p style="color: #cbd5e1; margin: 0; line-height: 1.7; font-size: 1.05rem;">
+      Soluciones eficientes con análisis de performance. Cada línea de código está 
+      documentada y optimizada para rendimiento máximo.
     </p>
   </div>
   
-  <div style="background: linear-gradient(135deg, #e6fff9 0%, #e6f0ff 100%); padding: 2rem; border-radius: 15px; border: 2px solid #28a74520;">
-    <div style="font-size: 2.5rem; margin-bottom: 1rem;">📊</div>
-    <h4 style="color: #2d3748; margin: 0 0 1rem 0; font-size: 1.2rem;">Visualizaciones útiles</h4>
-    <p style="color: #4a5568; margin: 0; line-height: 1.6;">
-      Gráficas que realmente cuentan una historia. No solo bonitas, sino que te ayudan 
-      a tomar decisiones basadas en datos.
+  <div style="background: linear-gradient(135deg, #0f3460 0%, #16213e 100%); padding: 2.5rem; border-radius: 16px; border: 2px solid #1a1a2e; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+    <div style="font-size: 3rem; margin-bottom: 1.2rem;">📈</div>
+    <h4 style="color: #00d4ff; margin: 0 0 1rem 0; font-size: 1.3rem; font-weight: 700;">Analytics Avanzado</h4>
+    <p style="color: #cbd5e1; margin: 0; line-height: 1.7; font-size: 1.05rem;">
+      Visualizaciones técnicas que revelan insights profundos. Dashboards interactivos 
+      diseñados para toma de decisiones estratégicas.
     </p>
   </div>
   
-  <div style="background: linear-gradient(135deg, #ffe6e6 0%, #fff0e6 100%); padding: 2rem; border-radius: 15px; border: 2px solid #dc354520;">
-    <div style="font-size: 2.5rem; margin-bottom: 1rem;">🚀</div>
-    <h4 style="color: #2d3748; margin: 0 0 1rem 0; font-size: 1.2rem;">Best practices (aprendidas a golpes)</h4>
-    <p style="color: #4a5568; margin: 0; line-height: 1.6;">
-      Patrones y técnicas que he ido descubriendo en el camino. Algunos por lectura, 
-      otros por romper cosas hasta que funcionaron.
+  <div style="background: linear-gradient(135deg, #0f3460 0%, #16213e 100%); padding: 2.5rem; border-radius: 16px; border: 2px solid #1a1a2e; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+    <div style="font-size: 3rem; margin-bottom: 1.2rem;">🚀</div>
+    <h4 style="color: #00d4ff; margin: 0 0 1rem 0; font-size: 1.3rem; font-weight: 700;">Best Practices</h4>
+    <p style="color: #cbd5e1; margin: 0; line-height: 1.7; font-size: 1.05rem;">
+      Metodologías industry-standard y técnicas de optimización. Aprendizajes 
+      de proyectos reales en ambientes de producción.
     </p>
   </div>
   
@@ -130,49 +140,52 @@ title: Blog de Analítica Avanzada
 
 ---
 
-## 👩‍💻 Sobre mí
+## 👨‍💻 Sobre el Autor
 
-<div style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 2.5rem; border-radius: 15px; border-left: 5px solid #667eea;">
+<div style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); padding: 3rem; border-radius: 16px; border-left: 5px solid #00d4ff; box-shadow: 0 10px 40px rgba(0,0,0,0.3);">
   
-  <p style="font-size: 1.1rem; color: #2d3748; line-height: 1.8; margin-bottom: 1.5rem;">
-    Soy <strong style="color: #667eea;">Maria Fernanda Herazo Escobar</strong>, estudiante de Analítica Avanzada 
-    y entusiasta del Big Data. Mi día a día incluye pelear con clusters de Spark, entrenar modelos de ML 
-    que a veces funcionan, y tratar de convencer a los datos de que me cuenten sus secretos.
+  <p style="font-size: 1.2rem; color: #e2e8f0; line-height: 1.8; margin-bottom: 1.8rem; font-weight: 500;">
+    <strong style="color: #00d4ff; font-size: 1.3rem;">Erick Gonzalez</strong> — Ingeniero de Datos especializado 
+    en procesamiento distribuido y sistemas de Big Data. Mi enfoque está en construir arquitecturas robustas 
+    que procesen millones de eventos por segundo sin inmutarse.
   </p>
   
-  <p style="color: #4a5568; line-height: 1.8; margin-bottom: 1.5rem;">
-    Este blog nació como mi cuaderno de apuntes públicos. Un lugar donde documento lo que aprendo, 
-    los errores que cometo (y cómo los soluciono), y esos momentos "aha!" que hacen que todo valga la pena.
+  <p style="color: #cbd5e1; line-height: 1.8; margin-bottom: 1.8rem; font-size: 1.05rem;">
+    Este blog documenta implementaciones técnicas, benchmarks de performance, y arquitecturas de datos 
+    que he diseñado y optimizado. Es mi repositorio de conocimiento técnico aplicado.
   </p>
   
-  <p style="color: #4a5568; line-height: 1.8; margin: 0;">
-    <strong>Mi filosofía:</strong> Si algo me tomó horas entenderlo, tal vez pueda ayudar a que alguien 
-    más lo entienda en minutos. Y si encuentro mejores formas de hacer las cosas, aprendo de la comunidad.
-  </p>
+  <div style="background: rgba(0, 212, 255, 0.05); padding: 1.5rem; border-radius: 12px; border-left: 3px solid #00d4ff;">
+    <p style="color: #e2e8f0; line-height: 1.8; margin: 0; font-size: 1.05rem;">
+      <strong style="color: #00d4ff;">Filosofía:</strong> El código debe ser elegante, eficiente y mantenible. 
+      Si una solución requiere explicación compleja, probablemente necesita refactoring. Creo en la documentación 
+      técnica precisa y en compartir conocimiento que resuelva problemas reales.
+    </p>
+  </div>
   
 </div>
 
 ---
 
-## 💬 Hablemos
+## 💬 Contacto Técnico
 
-<div style="background: white; padding: 2rem; border-radius: 12px; border: 2px solid #667eea20; text-align: center;">
-  <p style="color: #4a5568; font-size: 1.1rem; margin-bottom: 1rem;">
-    ¿Tienes preguntas, sugerencias o encontraste un bug en mi código?
+<div style="background: linear-gradient(135deg, #0f3460 0%, #16213e 100%); padding: 2.5rem; border-radius: 16px; border: 2px solid #1a1a2e; text-align: center; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+  <p style="color: #e2e8f0; font-size: 1.15rem; margin-bottom: 1.2rem; font-weight: 500;">
+    ¿Preguntas técnicas, sugerencias de optimización o bugs en el código?
   </p>
-  <p style="color: #718096; margin: 0;">
-    Déjame un comentario en cualquier artículo. Me encanta cuando la gente me señala formas 
-    de mejorar o me cuenta cómo usó algo que compartí.
+  <p style="color: #94a3b8; margin: 0; font-size: 1.05rem; line-height: 1.6;">
+    Deja tus comentarios en cualquier artículo. Siempre estoy abierto a discusiones técnicas 
+    y mejoras de arquitectura. El peer review hace mejor código.
   </p>
 </div>
 
 ---
 
-<div style="text-align: center; padding: 2.5rem; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); border-radius: 12px; margin-top: 4rem; border: 1px solid #dee2e6;">
-  <p style="color: #6c757d; margin: 0; font-size: 0.95rem;">
-    <strong style="color: #495057;">Construido con:</strong> Jekyll • GitHub Pages • Apache Spark • Python • Mucho café ☕
+<div style="text-align: center; padding: 3rem; background: linear-gradient(135deg, #0a0e27 0%, #16213e 100%); border-radius: 16px; margin-top: 4rem; border: 2px solid #1a1a2e; box-shadow: 0 10px 40px rgba(0,0,0,0.4);">
+  <p style="color: #94a3b8; margin: 0; font-size: 1rem; font-weight: 600; text-transform: uppercase; letter-spacing: 1px;">
+    <strong style="color: #00d4ff;">Stack:</strong> Jekyll • GitHub Pages • Apache Spark • Python • Docker
   </p>
-  <p style="color: #adb5bd; font-size: 0.85rem; margin-top: 0.8rem;">
-    Última actualización: {{ site.time | date: "%d de %B de %Y" }}
+  <p style="color: #64748b; font-size: 0.9rem; margin-top: 1rem;">
+    Build: {{ site.time | date: "%Y.%m.%d" }} | Última actualización: {{ site.time | date: "%d %B %Y" }}
   </p>
 </div>

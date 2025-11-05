@@ -1,9 +1,13 @@
-﻿title: "Blog de Analítica Avanzada - Maria Fernanda"
-description: "Análisis de Flujo de Datos Simulado con Spark"
+﻿title: "Data Engineering Lab - Erick Gonzalez"
+description: "Análisis de Datos a Escala Industrial con Apache Spark"
 theme: jekyll-theme-cayman
-baseurl: "/maria_herazo_trabajo-tercer_corte"
-url: "https://MariaFer2006.github.io"
+baseurl: "/erick_gonzalez_analytics"
+url: "https://ErickGonzalez.github.io"
 markdown: kramdown
+
+author:
+  name: "Erick Gonzalez"
+  bio: "Data Engineer | Big Data Specialist | Apache Spark Expert"
 
 plugins:
   - jekyll-feed
@@ -17,3 +21,4 @@ exclude:
   - Gemfile.lock
   - vendor
   - .gitignore
+  - node_modules
